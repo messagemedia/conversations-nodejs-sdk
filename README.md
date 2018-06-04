@@ -86,6 +86,61 @@ controller.createIntegrateFacebookPageUsingPOST(facebookPageId, function(error, 
 
 ```
 
+### 👤 Get users
+```javascript
+const lib = require('messagemedia-conversations-sdk');
+
+// Configuration parameters and credentials
+lib.Configuration.basicAuthUserName = "API_KEY"; // The username to use with basic authentication
+lib.Configuration.basicAuthPassword = "API_SECRET"; // The password to use with basic authentication
+
+var controller = lib.AppUsersController;
+
+controller.getAppUsersUsingGET(function(error, response, context) {
+  console.log(response);
+});
+
+```
+
+### 💬 Get user messages
+You can get a appUserId by looking at the response of the Get users example.
+```javascript
+const lib = require('messagemedia-conversations-sdk');
+
+// Configuration parameters and credentials
+lib.Configuration.basicAuthUserName = "API_KEY"; // The username to use with basic authentication
+lib.Configuration.basicAuthPassword = "API_SECRET"; // The password to use with basic authentication
+
+var controller = lib.AppUsersController;
+
+var appUserId = 'appUserId';
+
+controller.getAppUserMessagesUsingGET(appUserId, function(error, response, context) {
+  console.log(response);
+});
+
+```
+
+### ✉️ Send message to user
+You can get a appUserId by looking at the response of the Get users example.
+```javascript
+const lib = require('messagemedia-conversations-sdk');
+
+// Configuration parameters and credentials
+lib.Configuration.basicAuthUserName = "API_KEY"; // The username to use with basic authentication
+lib.Configuration.basicAuthPassword = "API_SECRET"; // The password to use with basic authentication
+
+var controller = lib.AppUsersController;
+
+var appUserId = 'appUserId';
+var message = new BaseMessageDto({"key":"value"});
+
+controller.createSendMessageUsingPOST(appUserId, message, function(error, response, context) {
+  console.log(response);
+});
+
+```
+
 ## 📕 Documentation
 Check out the [full API documentation](DOCUMENTATION.md) for more detailed information.
 
