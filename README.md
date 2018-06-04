@@ -103,7 +103,7 @@ controller.getAppUsersUsingGET(function(error, response, context) {
 ```
 
 ### 💬 Get user messages
-You can get a appUserId by looking at the response of the Get users example.
+You can get an appUserId from the response of the Get users example.
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
@@ -122,7 +122,7 @@ controller.getAppUserMessagesUsingGET(appUserId, function(error, response, conte
 ```
 
 ### ✉️ Send message to user
-You can get a appUserId by looking at the response of the Get users example.
+You can get an appUserId from the response of the Get users example.
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
