@@ -1,7 +1,7 @@
 {
-  "name": "messagemedia-conversations",
+  "name": "messagemedia-conversations-sdk",
   "version": "1.0.0",
-  "description": "Conversations Api Documentation",
+  "description": "The Conversations API allows users to communicate by sending and receiving messages via OTT messaging services.",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib"
