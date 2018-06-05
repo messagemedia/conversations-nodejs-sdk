@@ -68,7 +68,7 @@ controller.getFacebookPagesUsingGET(function(error, response, context) {
 ```
 
 ### ♻️ Integrate Facebook page
-You can get a facebookPageId by looking at the response of the Get Facebook pages example.
+You can get the facebookPageId by looking at the response of the Get Facebook pages example.
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
@@ -103,7 +103,7 @@ controller.getAppUsersUsingGET(function(error, response, context) {
 ```
 
 ### 💬 Get user messages
-You can get an appUserId from the response of the Get users example.
+You can get the appUserId from the response of the Get users example.
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
@@ -122,7 +122,7 @@ controller.getAppUserMessagesUsingGET(appUserId, function(error, response, conte
 ```
 
 ### ✉️ Send message to user
-You can get an appUserId from the response of the Get users example.
+You can get the appUserId from the response of the Get users example.
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
