@@ -6,7 +6,7 @@ lib.Configuration.basicAuthPassword = "API_SECRET"; // The password to use with 
 
 var controller = lib.ConfigurationController;
 
-var request = new lib.ProvisionAccountRequest({
+var request = new lib.ConfigureAccountRequest({
     "name": "Rainbow Serpent Festival",
     "callback_url": "https://callback.url.com"
 });
