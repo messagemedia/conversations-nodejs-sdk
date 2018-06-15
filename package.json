@@ -7,9 +7,9 @@
     "lint": "eslint lib"
   },
   "keywords": [],
-  "author": "APIMATIC SDK Generator",
+  "author": "MessageMedia Developers",
   "bugs": {
-    "email": "support@apimatic.io"
+    "email": "developers@messagemedia.com"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
