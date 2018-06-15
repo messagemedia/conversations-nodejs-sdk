@@ -14,7 +14,7 @@ Alternatively, add the following to the dependencies section of your package.jso
 ## 🎬 Get Started
 It's easy to get started. Simply enter the API Key and secret you obtained from the [MessageMedia Developers Portal](https://developers.messagemedia.com) into the code snippet below.
 
-### 🚀 Provision an account
+### 🚀 Configure an account
 ```javascript
 const lib = require('messagemedia-conversations-sdk');
 
