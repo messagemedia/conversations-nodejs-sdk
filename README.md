@@ -2,6 +2,8 @@
 [![Travis Build Status](https://api.travis-ci.org/messagemedia/conversations-nodejs-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/conversations-nodejs-sdk)
 [![npm version](https://badge.fury.io/js/messagemedia-conversations-sdk.svg)](https://badge.fury.io/js/messagemedia-conversations-sdk)
 
+⚠️ **Please note the API documented is in beta and is subject to breaking changes in the short term.** ⚠️
+
 The MessageMedia Conversations API allows users to communicate by sending and receiving messages via OTT messaging services. This feature is disabled by default. To enable it, you don't need to make any changes to your application, just an account configuration change by MessageMedia's support team (support@messagemedia.com).
 
 ## ⭐️ Installing via NPM
